@@ -3,7 +3,7 @@ from manim import *
 def rotate_l(l):
     return [l[-1]] + l[:-1]
 
-bit_string = "0000101101010101"
+bit_string = "1000101101010101"
 bit_list = list(bit_string)
 
 class SpiScene(Scene):
